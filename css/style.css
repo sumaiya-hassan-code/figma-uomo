@@ -1,0 +1,220 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.prev{
+    font-size: 30px;
+    color: rgb(215, 161, 141) !important;
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.next{
+    font-size: 30px;
+    color: rgb(215, 161, 141) !important;
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+/* All Common CSS End */
+
+/* Header Part Start */
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 0 !important;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.nav-link::after{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #222222;
+    bottom: -2px;
+    left: 0;
+    content: "";
+    transition-duration:  0.9s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.mediaIcon i{
+    color: #222222;
+    font-size: 20px;
+    margin: 5px;
+}
+/* Header Part End */
+
+
+.trendProductText{
+    margin-top: 30px;
+}
+
+.trendProductText h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.trendProductText button{
+    border: none;
+    background: transparent;
+    margin: 0 15px;
+    color: #767676;
+    transition: 0.04s;
+}
+
+.trendProductText button:hover{
+    border-bottom:2px solid black;
+    font-weight: 700;
+    color: black;
+}
+
+.itemText p{
+    color: #767676;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.itemText h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: #222222;
+}
+.itemText h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+}
+
+
+.itemText del {
+    font-size: 16px;
+    font-weight: 400;
+    color:red;
+    margin:0 5px ;
+}
+
+#trendProductPart a{
+    color: #222222 ;
+
+}
+
+#trendProductPart a:hover{
+    border-bottom:2px solid black;
+    font-weight: 700;
+    color: black;
+}
+
+.limited_edition{
+    position: relative;
+}
+.limited_edition_text{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+}
+
+.limited_edition_text_two{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color:black;
+}
+.limited_edition_text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.limited_edition_text h6{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.limited_edition_text h5{
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.limited_edition_text h5::after{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background:white;
+    bottom: -2px;
+    left: 0;
+    content: "";
+    transition-duration:  0.9s;
+}
+
+.limited_edition_text h5:hover::after{
+    width: 40%;
+}
+
+.limited_edition_text_two p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.limited_edition_text_two h6{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.limited_edition_text_two h5{
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;;
+}
+
+.limited_edition_text_two h5::after{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background:black;
+    bottom: -2px;
+    left: 0;
+    content: "";
+    transition-duration:  0.9s;
+}
+
+.limited_edition_text_two h5:hover::after{
+    width: 40%;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content h5{
+    color: #767676;
+    font-size: 15px;
+    margin-top: 10px;
+}
