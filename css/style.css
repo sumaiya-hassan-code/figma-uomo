@@ -104,7 +104,7 @@ a{
 .itemText h3{
     font-size: 16px;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: 5px;
     color: #222222;
 }
 .itemText h5{
@@ -120,6 +120,8 @@ a{
     color:red;
     margin:0 5px ;
 }
+
+
 
 #trendProductPart a{
     color: #222222 ;

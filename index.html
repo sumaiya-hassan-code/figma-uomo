@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     <!-- All CSS Files End -->
@@ -126,83 +127,84 @@
 <section id="trendProductPart">
   <div class="container">
     <div class="row mt-4 mb-6">
-      <div class="col-lg-5 m-auto">
+      <div class="col-lg-6 m-auto">
         <div class="trendProductText  text-center">
           <h3>OUR TRENDY <b> PRODUCTS</b></h3>                              
-          <button>ALL</button>
-          <button>NEWARRIVALS</button>
-          <button>BEST SELLER </button>
-          <button> TOP RATING</button>
+          <button data-filter="all">ALL</button>
+          <button data-filter=".ne">NEWARRIVALS</button>
+          <button data-filter=".bs">BEST SELLER </button>
+          <button data-filter=".tr"> TOP RATING</button>
           </div>
       </div>
     </div>
-    <div class="row mt-4 ">
-      <div class="col-lg-3">
-        <img src="images/image 7.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Cropped Faux Leather Jacket</h3>
-          <h5>$29</h5>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <img src="images/image 11.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Calvin Shorts</h3>
-          <h5>$62</h5>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <img src="images/image 9.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Kirby T-Shirt</h3>
-          <h5>$17</h5>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <img src="images/image 10.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Cableknit Shawl</h3>
-          <h5><del>$129</del>$99</h5>
-        </div>
+    <div class="filter gy-3">
+  <div class="row mt-4 mb-4">
+    <div class="col-lg-3 mix ne">
+      <img src="images/image 7.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Cropped Faux Leather Jacket</h3>
+        <h5>$29</h5>
       </div>
     </div>
-    <div class="row mt-4 mb-4 ">
-      <div class="col-lg-3">
-        <img src="images/image 12.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Colorful Jacket</h3>
-          <h5>$29</h5>
-        </div>
+    <div class="col-lg-3 mix bs">
+      <img src="images/image 11.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Calvin Shorts</h3>
+        <h5>$62</h5>
       </div>
-      <div class="col-lg-3">
-        <img src="images/images.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Shirt In Botanical Cheetah Print</h3>
-          <h5>$62</h5>
-        </div>
+    </div>
+    <div class="col-lg-3 mix tr">
+      <img src="images/image 9.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Kirby T-Shirt</h3>
+        <h5>$17</h5>
       </div>
-      <div class="col-lg-3">
-        <img src="images/images2.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Cotton Jersey T-Shirt</h3>
-          <h5>$17</h5>
-        </div>
+    </div>
+    <div class="col-lg-3 mix ne">
+      <img src="images/image 10.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Cableknit Shawl</h3>
+        <h5><del>$129</del>$99</h5>
       </div>
-      <div class="col-lg-3">
-        <img src="images/image 13.png" alt=""class="img-fluid w-100">
-        <div class="itemText">
-          <p>Dresses <i class="fa-regular fa-heart"></i></p>
-          <h3>Cropped Faux Leather Jacket</h3>
-          <h5><del>$129</del>$99</h5>
-        </div>
+    </div>
+    <div class="col-lg-3 mix bs">
+      <img src="images/image 12.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Colorful Jacket</h3>
+        <h5>$29</h5>
       </div>
+    </div>
+    <div class="col-lg-3 mix tr">
+      <img src="images/images.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Shirt In Botanical Cheetah Print</h3>
+        <h5>$62</h5>
+      </div>
+    </div>
+    <div class="col-lg-3 mix ne">
+      <img src="images/images2.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Cotton Jersey T-Shirt</h3>
+        <h5>$17</h5>
+      </div>
+    </div>
+    <div class="col-lg-3 mix ba">
+      <img src="images/image 13.png" alt="" class="img-fluid w-100">
+      <div class="itemText">
+        <p>Dresses <i class="fa-regular fa-heart"></i></p>
+        <h3>Cropped Faux Leather Jacket</h3>
+        <h5><del>$129</del>$99</h5>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <div class="row mt-4">
       <div class="col-lg-4 m-auto text-center">
@@ -381,6 +383,7 @@
     <!-- jQuery CDN Link -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
     <!-- All JS files End -->
