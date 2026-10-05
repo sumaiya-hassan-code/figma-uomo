@@ -305,6 +305,35 @@ a{
 }
 
 .copyright{
-    border-top:black;
-    padding: 100px;
+    border-top:2px solid #B3B3B3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.copyright p{
+    font-size: 14px;
+    color: #222222;
+}
+
+.copyright h3{
+    font-size: 14px;
+    color: #222222;
+    margin-left: 35px;
+}
+
+.copyright h4{
+    font-size: 14px;
+    color: #767676;
+    margin-left: 35px;
+}
+
+.copyright h6{
+    font-size: 14px;
+    color: #767676;
+}
+
+.copyright span{
+    margin: 10px;
 }
