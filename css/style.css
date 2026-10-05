@@ -11,7 +11,10 @@ ul,ol{
 a{
     text-decoration: none;
 }
-
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
 .prev{
     font-size: 30px;
     color: rgb(215, 161, 141) !important;
@@ -219,4 +222,89 @@ a{
     color: #767676;
     font-size: 15px;
     margin-top: 10px;
+}
+
+#footer{
+    background: #CFCDCD;
+    padding-top:100px ;
+    
+}
+
+.footer_text{
+    padding-top: 20px;
+}
+.footer_text p{
+    font-size: 13px;
+    color: #222222;
+    padding-bottom: 35px;
+}
+
+.footer_text h5{
+    font-size: 14px;
+    font-weight: 800;
+    color: #222222;
+}
+.footer_text img{
+    padding-top: 45px;
+}
+
+.footer_content h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+.footer_content ul li {
+    font-size: 14px;
+    color: #222222;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer_content ul li::before{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background:black;
+    top: 15px;
+    left: 0;
+    content: "";
+    transition-duration:  0.9s;
+}
+
+.footer_content ul li:hover::before{
+    width: 40%;
+}
+
+.footer_content p{
+    font-size: 14px;
+    color: #222222;
+    padding-bottom: 35px;
+}
+
+.footer_content h3{
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.input{
+    position: relative;
+}
+.footer_content input{
+    border:none;
+    padding: 10px;
+    position: relative;
+}
+.footer_content button{
+    position: absolute;
+    left: 170px;
+    top: 12px;
+    font-size: 14px;
+}
+
+.copyright{
+    border-top:black;
+    padding: 100px;
 }
